@@ -100,6 +100,15 @@ ul {
   padding-bottom: 32px;
 }
 
+.nav-img{
+  width: 16px;
+  height: 12px;
+}
+
+.nav-img:hover{
+  fill: var(--accent-color);
+}
+
 .header .container {
   display: flex;
   align-items: center;
@@ -176,6 +185,14 @@ ul {
   margin-right: 30px;
 }
 
+.description-list-icon {
+  display: block;
+  width: 70px;
+  height: 70px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+}
+
 .description-titel {
   font-weight: 700;
   font-size: 14px;
@@ -231,6 +248,9 @@ ul {
   color: var(--titel-light-color);
 }
 
+.comand {
+  background-color: #f5f4fa;
+}
 .comand .container {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -241,6 +261,10 @@ ul {
 }
 
 .comand-titel-item {
+  background-color: #fff;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12);
+  border-radius: 0px 0px 4px 4px;
   margin-right: 30px;
 }
 
@@ -272,10 +296,36 @@ ul {
 
 .comand-link-list:hover,
 .comand-link-list:focus {
-  color: var(--accent-color);
+  background-color: var(--accent-color);
 }
-.comand-img {
-  margin-bottom: 30px;
+
+.comand-link-list .comand-link-img:hover {
+  fill: #fff;
+}
+
+.comand-link {
+  display: flex;
+  justify-content: space-between;
+  max-width: 206px;
+  padding-left: 32px;
+  margin-right: auto;
+  margin-right: auto;
+  margin-bottom: 24px;
+}
+.comand-link-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: inherit;
+}
+
+.comand-link-img {
+  fill: #757575;
+  width: 20px;
+  height: 20px;
 }
 
 .comand-link {
@@ -323,9 +373,18 @@ ul {
   margin-bottom: 50px;
 }
 
-.client-link:hover,
-.client-link:focus {
-  color: var(--accent-color);
+.client-link-img:hover,
+.client-link-img:focus {
+  fill: var(--accent-color);
+}
+
+.client-link-img{
+  width: 50px;
+  height: 50px;
+  display: flex;
+  fill: #757575;
+
+
 }
 
 .footer {
@@ -341,8 +400,18 @@ ul {
 .footer-adress-link {
   margin-right: 69px;
 }
+/* 
+.comand-link-list-item-footcol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1); */
+}
 
-.footer-socia-link {
+.footer-socia-link. .comand-link {
   margin-right: 94px;
 }
 
@@ -448,6 +517,16 @@ ul {
 .main-btn:focus {
   background-color: var(--accent-color);
   color: var(--backgraoud-color);
+}
+
+.main-jobs-item{
+  border: 1px solid #EEEEEE;
+}
+
+.main-jobs-item-link:hover{
+  background-color: rgba(33, 150, 243, 0.9);
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
+
 }
 
 .jobs-titel {
