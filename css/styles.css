@@ -95,6 +95,9 @@ ul {
   color: var(--accent-color);
 }
 
+.header-link:hover svg{
+  fill: var(--accent-color);
+}
 .navigation-list-link {
   padding-top: 32px;
   padding-bottom: 32px;
