@@ -295,12 +295,12 @@ ul {
 }
 
 .comand-link-list:hover,
-.comand-link-list:focus {
+.comand-link-list:focus{
   background-color: var(--accent-color);
-}
+  }
 
-.comand-link-list .comand-link-img:hover {
-  fill: #fff;
+.comand-link-list:hover svg{
+    fill: #fff;
 }
 
 .comand-link {
@@ -319,7 +319,7 @@ ul {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background-color: inherit;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .comand-link-img {
@@ -362,6 +362,14 @@ ul {
 }
 .client-item-link:not(:last-child) {
   margin-right: 30px;
+}
+
+.client-item-link-list:hover{
+  border: 1px solid var(--accent-color)
+}
+
+.client-item-link-list:hover svg{
+  fill: var(--accent-color);
 }
 
 .client-titel {
